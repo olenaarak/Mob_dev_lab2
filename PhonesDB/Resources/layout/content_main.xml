@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+    android:padding="15dp">
+
+    <Button
+        android:id="@+id/filterProducts"
+        android:layout_width="168.0dp"
+        android:layout_height="60.5dp"
+        android:text="Товари"
+        android:layout_margin="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/priceButton"
+        android:layout_width="301.5dp"
+        android:layout_height="58.5dp"
+        android:text="Найбільша і найменша ціна товарів"
+        android:layout_margin="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/contactsButton"
+        android:layout_width="195.5dp"
+        android:layout_height="51.0dp"
+        android:text="Контакти"
+        android:layout_margin="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/warehousesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="73.5dp"
+        android:text="Побудова маршрута до обраного адреса"
+        android:layout_margin="15dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <ListView
+        android:id="@+id/mobile_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#0000FF"
+        android:dividerHeight="1dp"
+        android:paddingHorizontal="25dp">
+    </ListView>
+
+    <Button
+        android:id="@+id/authorButton"
+        android:layout_width="121.0dp"
+        android:layout_height="wrap_content"
+        android:text="Автор"
+        android:layout_margin="15dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/variantText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Варіант 10. База товарів на складі"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

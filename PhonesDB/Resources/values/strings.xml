@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Products and Warehouses</string>
+    <string name="action_settings">Settings</string>
+	<string name="author_image">Опис зображення автора</string>
+	<string name="checkbox_text">Контакти, у яких у прізвищі є фрагмент анч</string>
+
+</resources>

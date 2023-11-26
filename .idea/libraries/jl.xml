@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="jl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/PhonesDB/obj/Release/120/lp/56/jl/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/PhonesDB/obj/Release/120/lp/56/jl/res.zip!/" />
+      <root url="jar://$PROJECT_DIR$/PhonesDB/obj/Release/120/lp/56/jl/annotations.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
